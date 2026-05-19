@@ -500,8 +500,8 @@
                             <div class="space-y-2">
                                 <h4 class="text-white font-medium text-lg">주소</h4>
                                 <p class="text-white/50 font-light leading-relaxed">
-                                    경기도 수원시 영통구 중부대로462번길 41-4<br/>
-                                    (원천동, 국토빌딩)
+                                    경기도 수원시 영통구 중부대로462번길 41-4, 3층<br/>
+                                    (원천동, 두형빌딩)
                                 </p>
                             </div>
                         </div>
@@ -538,14 +538,10 @@
 
                 <!-- Right: Map Area -->
                 <div class="relative group h-[500px] w-full bg-white/5 rounded-xl overflow-hidden border border-white/10">
-                    <!-- Placeholder for Map (You can replace this with an actual Google Map or Kakao Map iframe) -->
-                    <div class="absolute inset-0 flex items-center justify-center flex-col space-y-4">
-                        <span class="material-symbols-outlined text-white/10 text-8xl">map</span>
-                        <p class="text-white/20 text-sm tracking-widest uppercase">Map View Area</p>
-                    </div>
-                    <!-- Mock Map Image (Replace with actual map integration if needed) -->
-                    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1200&auto=format&fit=crop" 
-                         class="w-full h-full object-cover opacity-40 grayscale group-hover:opacity-60 transition-opacity duration-700" alt="Map View">
+                    <!-- Google Maps Embed -->
+                    <iframe src="https://www.google.com/maps?q=경기도 수원시 영통구 중부대로462번길 41-4&z=17&hl=ko&output=embed"
+                            class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="국도 A&amp;D 오시는 길 지도"></iframe>
                     
                     <a href="https://map.kakao.com/?q=경기도 수원시 영통구 중부대로462번길 41-4" target="_blank"
                        class="absolute bottom-8 right-8 px-6 py-3 bg-primary text-background-dark font-bold text-xs tracking-widest uppercase hover:bg-white transition-colors">
